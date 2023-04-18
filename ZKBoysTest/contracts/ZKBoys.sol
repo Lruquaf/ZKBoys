@@ -83,13 +83,13 @@ contract ZKBoys is ERC721, Ownable {
      * @param _publicMintDate is publicMintDate
      */
 
-    function setMintTime(
-        uint256 _wlMintDate,
-        uint256 _publicMintDate
-    ) public onlyOwner {
-        wlMintDate = _wlMintDate;
-        publicMintDate = _publicMintDate;
-    }
+    // function setMintTime(
+    //     uint256 _wlMintDate,
+    //     uint256 _publicMintDate
+    // ) public onlyOwner {
+    //     wlMintDate = _wlMintDate;
+    //     publicMintDate = _publicMintDate;
+    // }
 
     /**
      * @notice the sale has two phase, whitelist sale and public sale.
