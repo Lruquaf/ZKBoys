@@ -1,0 +1,21 @@
+{
+  "name": "ZKBoysZK",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@ethersproject/hash": "^5.7.0",
+    "@ethersproject/web": "^5.7.1",
+    "@matterlabs/hardhat-zksync-deploy": "^0.6.3",
+    "@matterlabs/hardhat-zksync-solc": "^0.3.14",
+    "@matterlabs/hardhat-zksync-verify": "^0.1.4",
+    "@nomiclabs/hardhat-etherscan": "^3.1.2",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.13.0",
+    "zksync-web3": "^0.14.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.2",
+    "dotenv": "^16.0.3"
+  }
+}
